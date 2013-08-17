@@ -1,0 +1,35 @@
+/*reset*/
+html {color: #111; font-family: "微软雅黑",monospace,sans-serif}
+body {width: 90%}
+div {margin: 3px}
+
+/*bg color*/
+.bg-success {color:white; background-color: #468847}
+.bg-warning {color:white; background-color: #f89406}
+.bg-important {color:white; background-color: #b94a48}
+.bg-info {color:white; background-color: #3a87ad}
+.bg-inverse {color:white; background-color: #333}
+
+/*fg color*/
+.success {color: #468847}
+.warning {color: #f89406}
+.important {color: #b94a48}
+.info {color: #3a87ad}
+.inverse {color: #333}
+
+/*block inline*/
+.block {display: block; padding: 3px}
+.label {display: inline-block; padding: 3px}
+
+a {
+  color: #222;
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+a:hover {
+  color: #d14;
+  text-shadow: 0 0 10px #d14;
+}
+
+
